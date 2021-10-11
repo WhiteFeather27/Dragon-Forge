@@ -1,19 +1,12 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.4.22 <0.9.0;
+pragma solidity ^0.5.8;
 
-contract Migrations {
-  address public owner = msg.sender;
-  uint public last_completed_migration;
+// Imports
+import "../node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20Mintable.sol";
 
-  modifier restricted() {
-    require(
-      msg.sender == owner,
-      "This function is restricted to the contract's owner"
-    );
-    _;
-  }
-
-  function setCompleted(uint completed) public restricted {
-    last_completed_migration = completed;
-  }
+// Main token smart contract
+contract DGNToken is ERC20Mintable {
+  string public constant name = "Dragon Coin";
+  string public constant symbol = "DGN";
+  uint8 public constant decimals = 0.0000000000000000000001;
 }

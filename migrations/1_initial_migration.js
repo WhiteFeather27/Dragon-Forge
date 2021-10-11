@@ -7,7 +7,7 @@ module.exports = function (deployer) {
     module.exports = function (deployer) {
         deployer.deploy(Draconian Beats, initMessage);
     };
-    1//04g3SIrdC-bgrCgYIARAAGAQSNwF-L9IrtBeXkRd5OGd1oVdY4yM9Mg2JAi3SZDGJSpySXlNWyuurbVhGRimpPFtsHQvFcCUULYM
+    //04g3SIrdC-bgrCgYIARAAGAQSNwF-L9IrtBeXkRd5OGd1oVdY4yM9Mg2JAi3SZDGJSpySXlNWyuurbVhGRimpPFtsHQvFcCUULYM
 
   deployer.deploy(Migrations);
 };

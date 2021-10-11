@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
-  <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/temp" />
-      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
-      <excludeFolder url="file://$MODULE_DIR$/tmp" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
+	<component name="NewModuleRootManager">
+		<content url="file://$MODULE_DIR$">
+			<excludeFolder url="file://$MODULE_DIR$/temp" />
+			<excludeFolder url="file://$MODULE_DIR$/.tmp" />
+			<excludeFolder url="file://$MODULE_DIR$/tmp" />
+		</content= contract DGNToken is ERC20Mintable>
+		<string public="" constant="" name = "Dragon" Coin="">
+			<string public="" constant="" symbol ="DGN">
+				<uint8 public="" constant="" decimals = "0.0000000000000000000001">
+					</public>
+					<orderEntry type="inheritedJdk" />
+					<orderEntry type="sourceFolder" forTests="false" />
+				</component>
 </module>
